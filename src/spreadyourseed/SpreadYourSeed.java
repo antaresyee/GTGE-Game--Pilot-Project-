@@ -12,7 +12,7 @@ public class SpreadYourSeed extends com.golden.gamedev.GameEngine {
     @Override
     public GameObject getGame(int gameID) {
         switch (gameID) {
-            case 0: return new LevelTwo(this, myPlayerData);
+            case 0: return new LevelOne(this, myPlayerData);
             case 1: return new LevelTwo(this, myPlayerData);
         }
         

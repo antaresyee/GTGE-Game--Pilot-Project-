@@ -70,7 +70,7 @@ public class LevelTwo extends Level {
         //music
         playMusic("to_zanarkand.mid");
         //game
-        myWavesLeft = 1;
+        myWavesLeft = 4;
         myNumLives = myPlayerData.getNumLives();
         GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
         Font[] fonts = ge.getAllFonts(); 
